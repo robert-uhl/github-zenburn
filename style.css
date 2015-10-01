@@ -118,9 +118,9 @@
   .header-logo-invertocat {
     color: #7f9f7f;
   }
-  .form-control, .clone-url input.input-mini {
-    background-color: #494949;
-    color: #dcdccc;
+  .form-control, .clone-url input.input-mini, input.input-contrast, input.subnav-search-input {
+    background-color: #494949 !important;;
+    color: #dcdccc !important;
   }
 
   input[type="text"] {
@@ -331,6 +331,10 @@
 
   .markdown-body .highlight pre, .markdown-body pre > code, .markdown-body pre {
     background-color: #4f4f4f;
+  }
+
+  .pl-c {
+    color: #f0dfaf;
   }
 
   .pl-en {
