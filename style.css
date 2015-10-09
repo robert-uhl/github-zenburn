@@ -6,6 +6,15 @@
     color: #dcdccc !important;
   }
 
+  .outline-box-highlighted {
+    background-color: #366060;
+  }
+
+  .copyable-terminal {
+    background-color: #000000;
+    color: #7f9f7f;
+  }
+
   .range-editor {
     background-color: #000000;
   }
