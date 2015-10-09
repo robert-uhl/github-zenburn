@@ -68,7 +68,7 @@
   }
 
   .blob-code-deletion .x {
-    background-color: #bc8383;
+    background-color: #ac7373;
   }
 
   .blob-num-addition {
@@ -382,6 +382,10 @@
 
   .pl-s, .pl-pds {
     color: #8cd0d3;
+  }
+
+  .pl-v {
+    color: #dfaf8f;
   }
 
   .blob-code {
