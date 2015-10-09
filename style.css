@@ -14,6 +14,11 @@
     color: #656555;
   }
 
+  input[type="text"], dl.form input[type="text"] {
+    color: #dcdccc !important;
+    background-color: #3f3f3f !important;
+  }
+
   .compare-pr-placeholder, .compare-pr-placeholder p, .branch-infobar {
     color: #ffffef;
     background-color: #4f4f4f;
