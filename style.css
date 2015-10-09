@@ -1,9 +1,22 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document regexp("^https?://((gist|guides|help|status|developer)\.)?github\.com.*"), domain("render.githubusercontent.com") {
-  body, .simple-box, table.files, table, tr, th, td {
+  body, .simple-box, table.files, table, tr, th, td, .blog-post-body {
     background-color: #3f3f3f !important;
     color: #dcdccc !important;
+  }
+
+  .range-editor {
+    background-color: #000000;
+  }
+
+  .text-muted {
+    color: #656555;
+  }
+
+  .compare-pr-placeholder, .compare-pr-placeholder p, .branch-infobar {
+    color: #ffffef;
+    background-color: #4f4f4f;
   }
 
   .commit-sha, .thread-subscription-status, .full-commit {
@@ -13,7 +26,7 @@
 
   .full-commit p.commit-title {
     color: #dcdccc;
-    text-shadow:	none;
+    text-shadow: none;
   }
 
   .full-commit .branches-list li {
